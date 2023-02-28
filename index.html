@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <style type="text/css">
         #example .new { opacity: 0; }
         #example .div_opacity {
@@ -24,9 +25,33 @@
 </head>
 
 <body>
+    <div id="preloader_malc">
+
+        <div class="wrapperanimate">
+            <!-- <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <span>Загрузка</span> -->
+            <img data-speed="1" src="images/falling-rose-petals.png" alt="Лепестки" class="parallax petals">
+            <img data-speed="2" src="images/8-march.png" alt="8 марта" class="parallax march8">
+            <img data-speed="3" src="images/mishka.png" alt="Мишка" class="parallax mishka">
+            <img data-speed="4" src="images/violet.png" alt="Фиолетовый цветок" class="parallax violet">
+            <img data-speed="5" src="images/ping.png" alt="Розовый цветок" class="parallax ping">
+            <img data-speed="6" src="images/diamond-violet.png" alt="Кристал фиолетовый" class="parallax diamond_violet">
+            <img data-speed="7" src="images/diamond-ping.png" alt="Кристал розовый" class="parallax diamond_ping">
+            <div data-speed="1" class="parallax text">
+                <p>    Марта</p>
+             </div>
+        </div>
+    </div>
+    
     <section id="main">
         <div class="wrapper">
-            <div class="row">
+            <div class="row ">
+                <div class="blurka">
                 <img data-speed="1" src="images/falling-rose-petals.png" alt="Лепестки" class="parallax petals">
                 <img data-speed="2" src="images/8-march.png" alt="8 марта" class="parallax march8">
                 <img data-speed="3" src="images/mishka.png" alt="Мишка" class="parallax mishka">
@@ -34,23 +59,22 @@
                 <img data-speed="5" src="images/ping.png" alt="Розовый цветок" class="parallax ping">
                 <img data-speed="6" src="images/diamond-violet.png" alt="Кристал фиолетовый" class="parallax diamond_violet">
                 <img data-speed="7" src="images/diamond-ping.png" alt="Кристал розовый" class="parallax diamond_ping">
-                <div data-speed="1" class="parallax text">
-                   <p> Международный<br /> женский день</p>
+                </div>
+                <div class="second ">
+                    <div class="flower-container ">
+                        <div class="flower">
+                            <div class="message "></div>
+                        </div>
+                        <p class="message-text  " id="example" style="display: none;">С праздником весны, очарования, красоты и женственности! Пусть каждый день будет таким, как этот: наполнен улыбками, восхищением, любовью, заботой и радостью. Будьте счастливы, ощущая себя женщинами, принцессами, королевами. <br/> <br/>  В этот светлый весенний праздник хочется от всей души поздравить с Международным женский днем и пожелать самых важных и бесценных вещей: здоровья, любви и простого человеческого счастья. Пусть дома всегда царит тепло и уют, пусть близкие и родные всегда будут рядом, пусть жизнь будет полна радости. 
+                            <b>С 8 Марта, милые дамы!</b>    
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="second">
-        <div class="flower-container">
-            <div class="flower">
-                <div class="message"></div>
-            </div>
-            <p class="message-text" id="example" style="display: none;">С праздником весны, очарования, красоты и женственности! Пусть каждый день будет таким, как этот: наполнен улыбками, восхищением, любовью, заботой и радостью. Будьте счастливы, ощущая себя женщинами, принцессами, королевами. <br/> <br/>  В этот светлый весенний праздник хочется от всей души поздравить с Международным женский днем и пожелать самых важных и бесценных вещей: здоровья, любви и простого человеческого счастья. Пусть дома всегда царит тепло и уют, пусть близкие и родные всегда будут рядом, пусть жизнь будет полна радости. 
-                <b>С 8 Марта, милые дамы!</b>    
-            </p>
-        </div>
-    </section>
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+ 
     <script src="js/script.js"></script>
 </body>
 
