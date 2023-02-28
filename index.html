@@ -10,6 +10,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+        #example .new { opacity: 0; }
+        #example .div_opacity {
+            -webkit-transition: opacity .2s ease-in-out;
+            -moz-transition: opacity .2s ease-in-out;
+            -ms-transition: opacity .2s ease-in-out;
+            -o-transition: opacity .2s ease-in-out;
+            transition: opacity .2s ease-in-out;
+            opacity: 1;
+        }
+        </style>
 </head>
 
 <body>
@@ -34,11 +45,12 @@
             <div class="flower">
                 <div class="message"></div>
             </div>
-            <div class="message-text">С праздником весны, очарования, красоты и женственности! Пусть каждый день будет таким, как этот: наполнен улыбками, восхищением, любовью, заботой и радостью. Будьте счастливы, ощущая себя женщинами, принцессами, королевами. 
+            <p class="message-text" id="example" style="display: none;">С праздником весны, очарования, красоты и женственности! Пусть каждый день будет таким, как этот: наполнен улыбками, восхищением, любовью, заботой и радостью. Будьте счастливы, ощущая себя женщинами, принцессами, королевами. <br/> <br/>  В этот светлый весенний праздник хочется от всей души поздравить с Международным женский днем и пожелать самых важных и бесценных вещей: здоровья, любви и простого человеческого счастья. Пусть дома всегда царит тепло и уют, пусть близкие и родные всегда будут рядом, пусть жизнь будет полна радости. 
                 <b>С 8 Марта, милые дамы!</b>    
-            </div>
+            </p>
         </div>
     </section>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
 
