@@ -178,7 +178,7 @@ position: relative;
     font-weight: bold;
 }
 .message::before {
-    content: "Поздравляем с";
+    content: "Поздравляю с";
     color: white;
     white-space: nowrap;
     font-size: 28px;
